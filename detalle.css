@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Estilos de la cabecera */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004d40; /* Verde oscuro */
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white; /* Texto blanco para mayor contraste */
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white; /* Texto blanco para mejor visibilidad */
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #de1b72; /* Color secundario */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c2185b; /* Un tono más oscuro para mayor contraste en hover */
+    color: white;
+}
+
+/* Estilos de la página de detalles del producto */
+.product-detail {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+
+.product-detail-image img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.product-detail-info {
+    margin-left: 20px;
+    max-width: 600px;
+}
+
+.product-detail-info h1 {
+    color: #004d40;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #de1b72;
+    margin-bottom: 10px;
+}
+
+.description, .delivery-info {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.product-detail-info .cta-button {
+    padding: 10px 20px;
+    background-color: #de1b72;
+    color: white;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #004d40; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white; /* Enlaces blancos */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .product-detail {
+        flex
